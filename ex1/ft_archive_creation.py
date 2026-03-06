@@ -2,7 +2,7 @@
 
 print("=== CYBER ARCHIVES - PRESERVATION SYSTEM ===\n")
 try:
-    file = open("new_discovery.txt", "w+")
+    file = open("new_discovery.txt", "w")
 
     print(f"Initializing new storage unit: {file.name}")
     print("Storage unit created successfully...")
@@ -12,7 +12,8 @@ try:
     file.write("[ENTRY 001] New quantum algorithm discovered\n"
                "[ENTRY 002] Efficiency increased by 347%\n"
                "[ENTRY 003] Archived by Data Archivist trainee")
-    file.seek(0)
+
+    file = open("new_discovery.txt", "w")
     print(file.read())
     file.close()
     print()
