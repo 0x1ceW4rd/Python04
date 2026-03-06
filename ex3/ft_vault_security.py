@@ -9,8 +9,8 @@ with open("classified_data.txt", "r") as f1:
     print("SECURE EXTRACTION:")
     print(f1.read())
 print()
-with open("security_protocols.txt", "r") as f2:
+with open("security_protocols.txt", "w") as f2:
     print("SECURE PRESERVATION:")
-    print(f2.read())
+    f2.write("Hi Bob")
 print("Vault automatically sealed upon completion\n")
 print("All vault operations completed with maximum security.")
