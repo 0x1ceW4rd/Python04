@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
-
 
 print("=== CYBER ARCHIVES - DATA RECOVERY SYSTEM ===\n")
 try:
