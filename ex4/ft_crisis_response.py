@@ -31,8 +31,7 @@ except PermissionError:
     print(f"CRISIS ALERT: Attempting access to '{file_name}'...")
     print("RESPONSE: Security protocols deny access")
     print("STATUS: Crisis handled, security maintained")
-except Exception as e:
-    print(e)
+
 
 print()
 try:
@@ -49,8 +48,6 @@ except PermissionError:
     print(f"CRISIS ALERT: Attempting access to '{file_name}'...")
     print("RESPONSE: Security protocols deny access")
     print("STATUS: Crisis handled, security maintained")
-except Exception as e:
-    print(e)
 
 print()
 print("All crisis scenarios handled successfully. Archives secure.")

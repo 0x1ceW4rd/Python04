@@ -14,6 +14,6 @@ try:
 
     file.close()
     print()
-    print("Data recovery was succesfull. Storage unit disconnected.")
+    print("Data recovery was successful. Storage unit disconnected.")
 except FileNotFoundError:
-    print("Oops!\nThe file you are looking for siezed to exist.")
+    print("ERROR: Storage vault not found. Run data generator first.")
